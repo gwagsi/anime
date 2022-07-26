@@ -15,7 +15,64 @@
    list-style-position: outside;
 }
 
-img {
-    width: 200px;
-    height: 200px;
+
+
+/*Start Hero Section Styles */
+.hero_row {
+    display: flex;
+    background-color: blue;
+    align-content: stretch;
+    height:auto ;
+  }
+  .hero_column {
+    flex: 50%;
+    padding: 40px;
+
+  }
+
+.hero_column img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    justify-content: center;
+
 }
+.hero_column button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .hero_column h1{
+    font-size: 60px;
+  }
+  .hero_column ul{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  .hero_column p{
+    font-size: 25px;
+  }
+
+  /*End /
+
+  /*Start Social Proof Section*/
+.hero_social{
+background-color: #4CAF50;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+  /*END*/
