@@ -1,0 +1,21 @@
+
+.container li:before
+{
+    content: '✔';   
+    margin-left: -1em;
+    margin-right: .100em;
+}
+
+.container ul li
+{
+   display: inline-block;
+   padding-left: 20px;
+   text-indent: 2px;
+   list-style: none;
+   list-style-position: outside;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
